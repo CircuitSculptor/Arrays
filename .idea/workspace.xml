@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebbb5a2-6ced-46ae-9207-ef1fdf2a2a30" name="Changes" comment="clean up array demo code">
+    <list default="true" id="3ebbb5a2-6ced-46ae-9207-ef1fdf2a2a30" name="Changes" comment="clean up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,8 @@
       <workItem from="1728990636215" duration="372000" />
       <workItem from="1728991066590" duration="30000" />
       <workItem from="1729080476691" duration="2369000" />
-      <workItem from="1729086825559" duration="757000" />
+      <workItem from="1729086825559" duration="842000" />
+      <workItem from="1729087687559" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1728990751638</created>
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729087114593</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="clean up">
+      <created>1729087597227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729087597227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +135,7 @@
     <MESSAGE value="working on ArrayList demo" />
     <MESSAGE value="finished arraylist demo" />
     <MESSAGE value="clean up array demo code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up array demo code" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
 </project>

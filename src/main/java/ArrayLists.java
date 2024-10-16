@@ -18,18 +18,21 @@ public class ArrayLists {
 
         printArrayList(arrayList);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a new number: ");
-        int newValue = scanner.nextInt();
-
-        arrayList.add(newValue);
-
-        printArrayList(arrayList);
+        for (int i = 0; i < 10; i++) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Please enter a new number: ");
+            int num = scanner.nextInt();
+            arrayList.add(num);
+            printArrayList(arrayList);
+        }
     }
 
     public static void printArrayList(ArrayList<Integer> arrayList) {
+        int count = 0;
         for (int element : arrayList) {
-            System.out.println("ArrayList Element: " + element);
+            //System.out.println("ArrayList Element: " + element);
+            System.out.println("Element at index: " + count + ": " + element);
+            count ++;
         }
     }
 }
