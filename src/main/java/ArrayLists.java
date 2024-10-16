@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class ArrayLists {
     public static void main(String[] args) {
 
@@ -17,9 +18,8 @@ public class ArrayLists {
 
         printArrayList(arrayList);
 
-        // Prompt user for a new value
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a new value to add: ");
+        System.out.println("Please enter a new number: ");
         int newValue = scanner.nextInt();
 
         arrayList.add(newValue);
@@ -27,25 +27,9 @@ public class ArrayLists {
         printArrayList(arrayList);
     }
 
-    // Method to print ArrayList using enhanced for loop
     public static void printArrayList(ArrayList<Integer> arrayList) {
         for (int element : arrayList) {
             System.out.println("ArrayList Element: " + element);
         }
-
-
-        //ArrayList<Integer> numbers = new ArrayList<Integer>();
-
-
-
-        /*
-        public static void printArrayList(ArrayList<Integer> arrayList) {
-            for (int element : arrayList) {
-                System.out.println("ArrayList Element: " + element);
-            }
-        }
-
-         */
-
     }
 }
