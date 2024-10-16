@@ -16,6 +16,15 @@ public class ArrayDemo {
         anArray[8] = 900;
         anArray[9] = 1000;
 
+        try
+        {
+            anArray[10] = 1100;
+        }
+        catch (IndexOutOfBoundsException e)
+        {
+            System.out.println("Error. Cannot fill index 10 " + e.getMessage());
+        }
+
         System.out.println("Element at index 0: " + anArray[0]);
         System.out.println("Element at index 1: " + anArray[1]);
         System.out.println("Element at index 2: " + anArray[2]);
@@ -26,6 +35,7 @@ public class ArrayDemo {
         System.out.println("Element at index 7: " + anArray[7]);
         System.out.println("Element at index 8: " + anArray[8]);
         System.out.println("Element at index 9: " + anArray[9]);
+        System.out.println("Element at index 10: " + anArray[10]);
 
     }
 }
